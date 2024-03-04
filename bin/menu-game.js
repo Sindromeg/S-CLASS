@@ -1,3 +1,7 @@
 #!/usr/bin/env node
 
-console.log ('Choose the game!')
+import greetings from '../src/cli.js';
+
+greetings();
+
+console.log(`choose the game!\ngeometrical progression\nSCM`);
