@@ -1,9 +1,8 @@
 import readlineSync from 'readline-sync';
-
 const generateProgression = () => {
-    const progressionLength = Math.floor(Math.random() * 6) + 5;
-    const start = Math.floor(Math.random() * 10) + 1;
-    const ratio = Math.floor(Math.random() * 5) + 2;
+    const progressionLength = Math.floor(Math.random() * 6) + 5; 
+    const start = Math.floor(Math.random() * 10) + 1; 
+    const ratio = Math.floor(Math.random() * 5) + 2; 
     const hiddenIndex = Math.floor(Math.random() * progressionLength);
   
     const progression = [];
@@ -24,7 +23,7 @@ const generateProgression = () => {
     };
   };
   
-
+ 
   const playProgressionGame = () => {
     console.log('Welcome to the Brain Games!');
     const name = readlineSync.question('May I have your name? ');

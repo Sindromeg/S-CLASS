@@ -1,7 +1,5 @@
-#!/usr/bin/env node
-
 import readlineSync from 'readline-sync';
-import { generateRandomNumbers,findLCM } from '../src/index.js';
+import { generateRandomNumbers,findLCM } from '../src/utils.js';
 console.log('Welcome to the Brain Games!');
 const playerName = readlineSync.question('May I have your name? ');
 

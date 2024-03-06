@@ -8,9 +8,10 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "menu-game": "bin/menu-game.js",
-    "brain-scm": "bin/brain-scm.js",
-    "brain-progression": "bin/brain-progression.js"
+    "code": "bin/menu-games.js",
+    "brain-games": "bin/menu-game.js",
+    "brain-progression": "bin/brain-progression.js",
+    "brain-scm": "bin/brain-scm.js"
   },
   "author": "",
   "license": "ISC",

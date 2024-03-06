@@ -1,7 +1,7 @@
-#!/usr/bin/env node
+#!usr/bin/env node
 
-import greetings from '../src/cli.js';
+import {userName} from "../src/cli.js"
 
-greetings();
+userName()
 
 console.log(`choose the game!\ngeometrical progression\nSCM`);
