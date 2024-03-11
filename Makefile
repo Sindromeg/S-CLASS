@@ -16,7 +16,7 @@ lint-fix:
 brain-games:
 	node bin/brain-games.js
 
-geometrical progression:
+progression:
 	node bin/brain-progression.js
 
 SCM:
